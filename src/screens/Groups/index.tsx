@@ -1,9 +1,9 @@
-import { View, Text } from 'react-native';
+import { Container, Title} from './styles'
 
 export function Groups() {
   return (
-    <View>
-      <Text>App Ignite Teams</Text>
-    </View>
+    <Container>
+      <Title>App Ignite Teams</Title>
+    </Container>
   );
 }
