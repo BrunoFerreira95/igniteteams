@@ -7,6 +7,7 @@ import { Highlight } from '@components/Highlight';
 import { Container} from './styles'
 import { ListEmpty } from '@components/ListEmpty';
 import { Button } from '@components/Button';
+import { Input } from '@components/Input';
 
 export function Groups() {
   const [groups, setGroups] = useState<string[]>(['Galera da Rocket'])
